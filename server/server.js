@@ -5,9 +5,9 @@
 const express = require('express'),
     mongoose = require('mongoose'),
     bodyParser = require('body-parser'),
-    // TODO: ->
-    passport = require("passport");
-    //  -----|
+    passport = require("passport"),
+    path = require('path');
+
 
 // Initialize Express
 const app = express();
@@ -61,6 +61,17 @@ app.use('/api/users', users);
 // ======================================
 // Server
 // ======================================
+// Serve static assets if in production
+if(process.env.NODE_ENV === 'production'){
+    // Set static folder
+    app.use(express.static('../client/build'))
+
+    // Serve built index.html file
+    app.get('*', (req, res) => {
+        res.sendFile(path.resolve(__dirname, '../', 'client', 'build', 'index.html'))
+    });
+}
+
 // Port
 const port = process.env.PORT || 5000;
 
