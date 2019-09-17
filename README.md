@@ -1,7 +1,7 @@
 # A MERN-based Todo Application
 For all your todo management!
 
-*Steps To Produce:*
+**Steps To Produce:**
 - [ ]  Setup server
     - [ ]  Connect Database
     - [ ]  Create API Routes
@@ -23,4 +23,4 @@ For all your todo management!
     - [ ]  Add Redux and Axios for Registering and Authenticating Users
 - [ ]  Deploy via Heroku
 
-Note: Additional descriptions of the internal workings of application are present as annotations in source code
+*Note: Additional descriptions of the internal workings of application are present as annotations in source code*
