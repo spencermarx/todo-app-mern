@@ -1,5 +1,5 @@
 # A MERN-based Todo Application
-For all your todo management!
+For all your todo management! Visit website at https://marx-todo-app.herokuapp.com/
 
 **Steps To Produce:**
 - [ ]  Setup server
