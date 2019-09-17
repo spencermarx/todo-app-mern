@@ -8,12 +8,19 @@ const jwt = require("jsonwebtoken");
 const keys = require("../../config/keys");
 const router = express.Router();
 
+// ======================================
+// Require Validation & Models
+// ======================================
 // Load input validation
 const validateRegisterInput = require("../../validation/register");
 const validateLoginInput = require("../../validation/login");
 
 // Load User model
 const User = require("../../models/User");
+
+// ======================================
+// Routes
+// ======================================
 
 // @route POST api/users/register
 // @desc Register user
@@ -98,4 +105,7 @@ router.post("/login", (req, res) => {
     });
 });
 
+// ======================================
+// Export
+// ======================================
 module.exports = router;

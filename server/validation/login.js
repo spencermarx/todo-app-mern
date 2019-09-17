@@ -1,6 +1,12 @@
+// ======================================
+// Require Packages
+// ======================================
 const Validator = require("validator");
 const isEmpty = require("is-empty");
 
+// ======================================
+// Export Function
+// ======================================
 module.exports = function validateLoginInput(data) {
   let errors = {};
 // Convert empty fields to an empty string so we can use validator functions
