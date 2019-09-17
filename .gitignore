@@ -3,4 +3,6 @@ server/config/keys.jsnode_modules
 
 #ignore nodemodules
 node_modules
-node_modules
+
+#ignore npm debug.log
+npm-debug.log
