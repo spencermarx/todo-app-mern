@@ -1,0 +1,88 @@
+/* ========================= */
+/* Todo Component */
+/* ========================= */
+
+/* Todo */
+.Todo.list-group-item {
+  display: grid;
+  grid-template-columns: 0.15fr 0.15fr 1fr 0.25fr;
+  align-items: center;
+  transition: 350ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/* Todo Completed*/
+.Todo.list-group-item.complete {
+  display: grid;
+  grid-template-columns: 0.15fr 0.15fr 1fr 0.25fr;
+  align-items: center;
+  background: #e8f7fc;
+}
+
+/* Todo Checkbox */
+.Todo-checkbox {
+  /* reset */
+  justify-self: start;
+}
+.Todo-checkbox:hover {
+  /* reset */
+  justify-self: start;
+  cursor: pointer;
+}
+
+/* Todo Date Due */
+.Todo-datedue {
+  /* reset */
+  margin: 0 1rem;
+}
+/* Todo Description */
+.Todo-description {
+  /* reset */
+  margin: 0;
+  transition: 350ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/* Todo Description Complete*/
+.Todo.list-group-item.complete .Todo-description {
+  /* reset */
+  text-decoration: line-through;
+}
+
+/* Todo Actions */
+.Todo-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+/* Todo Remove Button Pencil Icon*/
+.Todo .svg-inline--fa.fa-pencil-alt {
+  justify-self: center;
+}
+
+.Todo .svg-inline--fa.fa-pencil-alt:hover {
+  cursor: pointer;
+}
+
+/* Todo Remove Button Pencil Icon Inner Path*/
+.Todo .svg-inline--fa.fa-pencil-alt path {
+  fill: #145569;
+  transition: 350ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.Todo .svg-inline--fa.fa-pencil-alt:hover path {
+  fill: #3e8197;
+}
+
+/* Todo Remove Button Trash Icon*/
+.Todo .svg-inline--fa.fa-trash {
+  justify-self: center;
+}
+.Todo .svg-inline--fa.fa-trash:hover {
+  cursor: pointer;
+}
+
+/* Todo Remove Button Trash Icon Inner Path*/
+.Todo .svg-inline--fa.fa-trash path {
+  fill: rgb(196, 101, 101);
+  transition: 350ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.Todo .svg-inline--fa.fa-trash:hover path {
+  fill: rgb(245, 147, 147);
+}

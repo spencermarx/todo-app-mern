@@ -1,0 +1,64 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #145569;
+}
+
+.custom-button-primary.btn {
+  background: #145569;
+  border: 2px solid #145569;
+  color: white;
+  transition: 350ms;
+  min-width: 150px;
+}
+.custom-button-primary.btn:hover {
+  background: #3e8197;
+  border: 2px solid #3e8197;
+  color: white;
+}
+
+.custom-button-secondary.btn {
+  background: none;
+  border: 2px solid #145569;
+  color: #145569;
+  transition: 350ms;
+  min-width: 150px;
+}
+.custom-button-secondary.btn:hover {
+  background: #145569;
+  color: white;
+}
+
+.custom-link-white {
+  color: white;
+  text-decoration: none;
+}
+.custom-link-white:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  cursor: pointer;
+}
+.custom-link-primary {
+  color: #145569;
+  text-decoration: none;
+}
+.custom-link-primary:hover {
+  color: #3e8197;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-primary {
+  color: #145569;
+}
+
+.form-error {
+  color: rgb(196, 101, 101);
+  margin-left: 1rem;
+}
