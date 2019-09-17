@@ -1,0 +1,22 @@
+/* ========================= */
+/* Register Component */
+/* ========================= */
+
+/* Register */
+.Register.container {
+  max-width: 650px;
+  margin: 3rem auto;
+}
+
+/* Register form */
+.Register-form {
+  border: 1px solid gray;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+/* Register form button */
+.Register-form-button {
+  margin: auto 0.5rem;
+}
