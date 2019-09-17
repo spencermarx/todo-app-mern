@@ -1,2 +1,8 @@
 #Ignore Keys
 server/config/keys.jsnode_modules
+
+#ignore nodemodules
+node_modules
+
+#ignore npm debug.log
+npm-debug.log
