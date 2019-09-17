@@ -1,2 +1,6 @@
 #Ignore Keys
 server/config/keys.jsnode_modules
+
+#ignore nodemodules
+node_modules
+node_modules
