@@ -1,5 +1,5 @@
-# todo-app-mern
-A full stack MERN todo app...
+# A MERN-based Todo Application
+For all your todo management!
 
 *Steps To Produce:*
 - [ ]  Setup server
